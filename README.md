@@ -1,16 +1,46 @@
-# React + Vite
+# Community Issue Reporting Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React + Vite frontend for reporting and managing community issues.
 
-Currently, two official plugins are available:
+## Tech Stack
+- React 18
+- Vite
+- Tailwind CSS
+- Axios
+- React Router
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- User authentication
+- Dashboard with issue filtering
+- Create issues with image uploads
+- View issue details
+- Comments on issues
+- Responsive design
 
-## React Compiler
+## Installation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+## Environment Variables
+VITE_API_URL='https://your-backend-url.onrender.com'
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Pages
+- Login / Signup
+- Dashboard (list issues with filters)
+- Create Issue (with image)
+- Issue Detail (with comments)
+
+## Deployment
+Deployed on [Vercel](https://vercel.com)
+
+## Live Demo
+[https://community-issue-reporting-system-fr.vercel.app](https://community-issue-reporting-system-fr.vercel.app)
+
+## Backend Repo
+[community-issue-api](https://github.com/smd-ayaan/community-issue-api)
+
+## License
+MIT
